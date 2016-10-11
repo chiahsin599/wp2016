@@ -8,8 +8,10 @@ h1{
 	color:white;
 	font-size:60px;
 	font-family:Lucida handwriting;
-	text-align:center;
-	margin-top:550px;
+	/*text-align:center;
+	margin-top:550px;*/
+	display:block;
+	margin:auto;
 }
 
 .contents{
@@ -17,15 +19,19 @@ h1{
 	font-size:48px;
 	font-family:Calibri;
 	text-align:center;
+	margin:auto;
 }
 
 #portrait,#profiles{
 	position:absolute;
+	right:50%;
+	left:50%;
+	top:20%;
+	bottom:80%;
 	border-radius:99em;
   	width: 300px;
   	height: 300px;
-	margin-top: 200px;
-	margin-right: 600px;
+	
 }
 
 a:link, a:visited{
