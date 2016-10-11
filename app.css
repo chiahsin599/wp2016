@@ -9,13 +9,17 @@ h1{
 	text-align:center;
 }
 
-#profiles{
+.section{
 	color:white;
 	font-size:48px;
 	font-family:Calibri;
 	text-align:center;
 }
 
-#portrait{
+#portrait,#profiles{
 	posotion:absolute;
+	left: 766.9px;
+	top: 263.7px;
+  	width: 439.7px;
+  	height: 516.5px;
 }
