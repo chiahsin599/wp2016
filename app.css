@@ -10,10 +10,10 @@ h1{
 	font-family:Lucida handwriting;
 	text-align:center;
 	margin-top:500px;
-
+	display:block;
 }
 
-#profiles{
+.contents{
 	color:white;
 	font-size:48px;
 	font-family:Calibri;
@@ -24,41 +24,31 @@ h1{
 	position:absolute;
 	right:50%;
 	left:50%;
-	margin:-150px 0 0 -150px;
 	top:35%;
+	margin:-150px 0 0 -150px;
 	bottom:80%;
 	border-radius:99em;
   	width: 300px;
   	height: 300px;
+	
 }
 
 a:link, a:visited{
 	display:block;
-	font-size:20px;
-	font-family:Lucida handwriting;
-	color:grey;
+	font-size:30px;
+	font-family:Calibri;
 	padding: 14px 25px;
 	background-color: blue;
-	text-align:center;
-	top:600px;
-}
-a:link, a:visited {
-	background-color: blue;
-	color: white;
-	padding: 14px 25px;
-	text-align: center;
+	color:white;
 	text-decoration: none;
 	display: inline-block;
-	border: 1px solid black;
-   	margin-top: 100px;
-    	margin-bottom: 100px;
-    	margin-right: 150px;
-    	margin-left: 80px;
-
+	text-align:center;
+	/*margin-left:50%;
+	margin-right:50%;*/
 }
+
 a:hover, a:active {
 	background-color:white;
 	color:black;
 	text-decoration:none;
 }
-
