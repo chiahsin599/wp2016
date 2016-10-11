@@ -8,7 +8,7 @@ h1{
 	color:white;
 	font-size:60px;
 	font-family:Lucida handwriting;
-	text-align:center;
+	/*text-align:center;*/
 	left: 50%;
 	top: 50%;
 }
@@ -17,7 +17,7 @@ h1{
 	color:white;
 	font-size:48px;
 	font-family:Calibri;
-	text-align:center;
+	/*text-align:center;*/
 	left: 30%;
 	top: 60%;
 }
@@ -26,17 +26,30 @@ h1{
 	position:absolute;
 	border-radius:99em;
 	left: 50%;
-	top: 30%;
+	top: 20%;
   	width: 300px;
   	height: 300px;
-	overflow-y: hidden;
 }
 
-a{
+a:link, a:visited{
 	display:block;
 	font-size:20px;
 	font-family:Lucida handwriting;
 	color:grey;
+	padding: 14px 25px;
+	background-color: blue;
 	text-align:center;
 	top:600px;
+}
+a:link, a:visited {
+	background-color: #f44336;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+a:hover, a:active {
+	background-color:white;
+	text-decoration:none;
 }
