@@ -9,7 +9,8 @@ h1{
 	font-size:60px;
 	font-family:Lucida handwriting;
 	text-align:center;
-	
+	left: 50%;
+	top: 50%;
 }
 
 .section{
@@ -17,15 +18,15 @@ h1{
 	font-size:48px;
 	font-family:Calibri;
 	text-align:center;
-	left: 766.9px;
-	top: 450px;
+	left: 50%;
+	top: 60%;
 }
 
 #portrait,#profiles{
 	position:absolute;
 	border-radius:99em;
-	left: 766.9px;
-	top: 263.7px;
+	left: 50%;
+	top: 30%;
   	width: 300px;
   	height: 300px;
 	overflow-y: hidden;
