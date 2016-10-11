@@ -21,7 +21,7 @@ h1{
 }
 
 #portrait,#profiles{
-	posotion:absolute;
+	position:absolute;
 	border-radius:99em;
 	left: 766.9px;
 	top: 263.7px;
@@ -31,4 +31,8 @@ h1{
 
 a{
 	display:block;
+	font-size:20px;
+	font-family:Lucida handwriting;
+	color:grey;
+	text-align:center;
 }
