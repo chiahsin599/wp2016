@@ -17,6 +17,8 @@ h1{
 	font-size:48px;
 	font-family:Calibri;
 	text-align:center;
+	left: 766.9px;
+	top: 450px;
 }
 
 #portrait,#profiles{
@@ -35,5 +37,5 @@ a{
 	font-family:Lucida handwriting;
 	color:grey;
 	text-align:center;
-	top:500px;
+	top:600px;
 }
